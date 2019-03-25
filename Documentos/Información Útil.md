@@ -16,6 +16,10 @@
 
 * Grid Area &rarr; Espacio rodeado por 4 grid lines
 
+* Grid explícito (explicit grid) &rarr; Es cuando nosotros definimos el número de filas o columnas.
+
+* Grid implícito (implicit grid) &rarr; Es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
+
 **NOTA** &rarr; Flexbox para diseños unidimensionales y CSS Grid para diseños bidimensionales.
 
 ## Links Importantes
@@ -25,3 +29,7 @@
 * [Firefox CSS Grid Layout](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout "Firefox CSS Grid Layout").
 * [Comparación CSS Grid y Boostrap](https://platzi.com/tutoriales/1229-css-grid-layout/2071-por-que-css-grid-es-mejor-que-bootstrap-para-crear-disenos/ "Comparación CSS Grid y Boostrap").
 * [Más sobre CSS Grid Firefox](https://mozilladevelopers.github.io/playground/css-grid/ "Más sobre CSS Grid Firefox").
+* [EMMET para Agilizar Escritura de Código](https://docs.emmet.io/cheat-sheet/ "EMMET para Agilizar Escritura de Código").
+* [Más sobre EMMET](https://code.visualstudio.com/docs/editor/emmet "Más sobre EMMET").
+* [Explicación CSS Grids](https://css-tricks.com/snippets/css/complete-guide-grid/ "Explicación CSS Grids").
+* [Explicit Grid & Implicit Grid](https://www.quackit.com/css/grid/tutorial/explicit_vs_implicit_grid.cfm "Explicit Grid & Implicit Grid").
