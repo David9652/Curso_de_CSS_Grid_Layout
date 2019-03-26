@@ -33,3 +33,4 @@
 * [Más sobre EMMET](https://code.visualstudio.com/docs/editor/emmet "Más sobre EMMET").
 * [Explicación CSS Grids](https://css-tricks.com/snippets/css/complete-guide-grid/ "Explicación CSS Grids").
 * [Explicit Grid & Implicit Grid](https://www.quackit.com/css/grid/tutorial/explicit_vs_implicit_grid.cfm "Explicit Grid & Implicit Grid").
+* Post CSS instalar Subgrid (Hereda la definición de Filas y Columnas del padre).
