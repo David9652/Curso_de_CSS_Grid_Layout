@@ -26,6 +26,8 @@
 
 * fr (Nueva Unidad de medida) &rarr; Fracciones **fr** distrubuye el espacio disponible en formas iguales.
 
+* **Auto** es lo mismo que **fr** pero al mismo tiempo no lo es, porque auto distribuye el espaciado que tiene la columna pero con referencia a su contenido.
+
 ## Funciones
 
 * repeat(cantidad, valor) &rarr; Usa el mismo valor varias veces.
