@@ -22,7 +22,15 @@
 
 * grid-column-gap: valor; &rarr; Definir espaciado entre columnas.
 
-* grid-row-gap: valor; &rarr; Definir espaciado entre filas 
+* grid-row-gap: valor; &rarr; Definir espaciado entre filas .
+
+* fr (Nueva Unidad de medida) &rarr; Fracciones **fr** distrubuye el espacio disponible en formas iguales.
+
+## Funciones
+
+* repeat(cantidad, valor) &rarr; Usa el mismo valor varias veces.
+
+* minmax(min, max) &rarr; Agrega un valor mínimo y máximo para el tamaño al hacer responsive.
 
 **NOTA** &rarr; Flexbox para diseños unidimensionales y CSS Grid para diseños bidimensionales.
 
@@ -40,3 +48,4 @@
 * Post CSS instalar Subgrid (Hereda la definición de Filas y Columnas del padre).
 * [Selectores CSS](https://dazzet.co/simbolos-css-en-hojas-estilo-html/ "Selectores CSS").
 * [Unidad fr CSS](https://css-tricks.com/introduction-fr-css-unit/ "Unidad fr CSS").
+* [Página para practicar CSS-Grid](http://cssgridgarden.com/#es "Página para practicar CSS-Grid").
