@@ -20,6 +20,10 @@
 
 * Grid implícito (implicit grid) &rarr; Es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
 
+* grid-column-gap: valor; &rarr; Definir espaciado entre columnas.
+
+* grid-row-gap: valor; &rarr; Definir espaciado entre filas 
+
 **NOTA** &rarr; Flexbox para diseños unidimensionales y CSS Grid para diseños bidimensionales.
 
 ## Links Importantes
@@ -34,3 +38,4 @@
 * [Explicación CSS Grids](https://css-tricks.com/snippets/css/complete-guide-grid/ "Explicación CSS Grids").
 * [Explicit Grid & Implicit Grid](https://www.quackit.com/css/grid/tutorial/explicit_vs_implicit_grid.cfm "Explicit Grid & Implicit Grid").
 * Post CSS instalar Subgrid (Hereda la definición de Filas y Columnas del padre).
+* [Selectores CSS](https://dazzet.co/simbolos-css-en-hojas-estilo-html/ "Selectores CSS").
