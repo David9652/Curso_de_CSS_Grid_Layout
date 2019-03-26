@@ -1,38 +1,47 @@
 # Información Útil
 
-* CSS Grid Layout es un módulo de maquetación CSS con un sistema basado en rejillas bidimensionales (filas y columnas) y es soportado por todos los navegadores..
+* **CSS Grid Layout** es un módulo de maquetación CSS con un **sistema basado en rejillas bidimensionales** (filas y columnas) y es soportado por todos los navegadores.
 
 ## Componentes Principales
 
-* Grid Container &rarr; Va a ser el elemento padre que va a tener puesto un nuevo tipo de display: grid. Nos permite colocar otras propiedades para manipular nuestro layaout.
+* **Grid Container** &rarr; Va a ser el elemento padre que va a tener puesto un nuevo tipo de display (grid). Nos permite colocar otras propiedades para manipular nuestro layaout.
 
-* Grid Item &rarr; Son nuestro componentes, contenido, lo que vamos a manejar. Nuestras filas o columnas que vamos a mover a nuestro gusto. Son hijos directos de grid.
+* **Grid Item** &rarr; Son nuestro componentes, contenido, lo que vamos a manejar. Nuestras filas o columnas que vamos a mover a nuestro gusto. Son hijos directos de grid.
 
-* Grid Line &rarr; Lineas divisorias horizontales y verticales.
+* **Grid Line** &rarr; Lineas divisorias horizontales y verticales.
 
-* Grid Track &rarr; Espacio entre dos líneas adyacentes. Filas y columnas.
+* **Grid Track** &rarr; Espacio entre dos líneas adyacentes. Filas y columnas.
 
-* Grid Cell &rarr; Celdas, espacio en dos filas adyacentes y 2 columnas adyacentes.
+* **Grid Cell** &rarr; Celdas, espacio en dos filas adyacentes y 2 columnas adyacentes.
 
-* Grid Area &rarr; Espacio rodeado por 4 grid lines
+* **Grid Area** &rarr; Espacio rodeado por 4 grid lines.
 
-* Grid explícito (explicit grid) &rarr; Es cuando nosotros definimos el número de filas o columnas.
+* **Grid explícito (explicit grid)** &rarr; Es cuando nosotros definimos el número de filas o columnas.
 
-* Grid implícito (implicit grid) &rarr; Es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
+* **Grid implícito (implicit grid)** &rarr; Es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
 
-* grid-column-gap: valor; &rarr; Definir espaciado entre columnas.
+* **grid-column-gap: valor;** &rarr; Definir espaciado entre columnas.
 
-* grid-row-gap: valor; &rarr; Definir espaciado entre filas .
+* **grid-row-gap: valor;** &rarr; Definir espaciado entre filas.
 
-* fr (Nueva Unidad de medida) &rarr; Fracciones **fr** distrubuye el espacio disponible en formas iguales.
+* **grid-template-areas** &rarr; Definimos los nombres de las áreas de contenido.
+
+* **grid-area** &rarr; Asigna a un **item** el nombre de área que creamos con **grid-template-areas**, haciéndole referencia para poder utilizarlo. Solamente aplica para hijos directos.
+
+* **grid-column-start & grid-column-end** &rarr; Definir el tamaño de columnas dentro de un grid (líneas).
+	* **grid-column: inicio / final;** &rarr; Sintáxis resumida
+	* Para usar por espacios &rarr; **span** #
+	* Para usar el espacio de toda la columna usamos **-1** al final.
+
+* **fr (Nueva Unidad de medida)** &rarr; **fr** distrubuye el espacio disponible en formas iguales.
 
 * **Auto** es lo mismo que **fr** pero al mismo tiempo no lo es, porque auto distribuye el espaciado que tiene la columna pero con referencia a su contenido.
 
 ## Funciones
 
-* repeat(cantidad, valor) &rarr; Usa el mismo valor varias veces.
+* **repeat(cantidad, valor)** &rarr; Usa el mismo valor varias veces.
 
-* minmax(min, max) &rarr; Agrega un valor mínimo y máximo para el tamaño al hacer responsive.
+* **minmax(min, max)** &rarr; Agrega un valor mínimo y máximo para el tamaño.
 
 **NOTA** &rarr; Flexbox para diseños unidimensionales y CSS Grid para diseños bidimensionales.
 
@@ -52,3 +61,6 @@
 * [Unidad fr CSS](https://css-tricks.com/introduction-fr-css-unit/ "Unidad fr CSS").
 * [Página para practicar CSS-Grid](http://cssgridgarden.com/#es "Página para practicar CSS-Grid").
 * [Unidades VH y VW en CSS](https://devcode.la/tutoriales/unidades-vh-vw-css/ "Unidades VH y VW en CSS").
+* [Imágenes 1](https://pixabay.com/ "Imágenes 1").
+* [Imágenes 2](https://www.pexels.com/ "Imágenes 2").
+* [Imágenes 3](https://pikwizard.com/ "Imágenes 3").
