@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Rows Size - Item</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows: repeat(2,200px);
+            grid-gap: 5px;
+            height: 100vh;
+        }
+        .item{
+            background-color: aquamarine;
+            padding: 10px;
+        }
+        .item:nth-of-type(1){
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+        .item:nth-of-type(2){
+            background: red;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .item:nth-of-type(3){
+            background: pink;
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+
+    </style>
+</head>
+<body>
+    <seccion class="container">
+        <div class="item">item #1</div>
+        <div class="item">item #2</div>
+        <div class="item">item #3</div>
+        <div class="item">item #4</div>
+        <div class="item">item #5</div>
+    </seccion>
+</body>
+</html>

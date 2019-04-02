@@ -43,7 +43,7 @@
 
 * **minmax(min, max)** &rarr; Agrega un valor mínimo y máximo para el tamaño.
 
-**NOTA** &rarr; Flexbox para diseños unidimensionales y CSS Grid para diseños bidimensionales.
+**NOTA** &rarr; Flexbox para diseños unidimensionales (componentes) y CSS Grid para diseños bidimensionales (estructura).
 
 ## Links Importantes
 
@@ -64,3 +64,4 @@
 * [Imágenes 1](https://pixabay.com/ "Imágenes 1").
 * [Imágenes 2](https://www.pexels.com/ "Imágenes 2").
 * [Imágenes 3](https://pikwizard.com/ "Imágenes 3").
+* [Flexbox Vs CSS Grids](https://platzi.com/blog/flexbox-vs-css-grid-cual-es-la-diferencia/ "Flexbox Vs CSS Grids").
