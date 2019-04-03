@@ -33,6 +33,10 @@
 	* Para usar por espacios &rarr; **span** #
 	* Para usar el espacio de toda la columna usamos **-1** al final.
 
+* **grid-auto-flow: column** &rarr; Cambiar el flujo automático de mi grid (row por defecto).4
+
+* **grid-auto-columns & grid-auto-rows** &rarr; Asignar el valor por defecto del espacio de las columnas o filas que no han sido asignadas (implícitas)
+
 * **fr (Nueva Unidad de medida)** &rarr; **fr** distrubuye el espacio disponible en formas iguales.
 
 * **Auto** es lo mismo que **fr** pero al mismo tiempo no lo es, porque auto distribuye el espaciado que tiene la columna pero con referencia a su contenido.
