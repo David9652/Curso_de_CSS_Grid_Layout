@@ -37,6 +37,10 @@
 
 * **grid-auto-columns & grid-auto-rows** &rarr; Asignar el valor por defecto del espacio de las columnas o filas que no han sido asignadas (implícitas)
 
+* **justify-items & align-items** &rarr; Alineación horizontal y vertical, respectivamente (contenedor padre). Los valores que toman por defecto es **stretch**, el cual hace que tomen todo el valor asignado en la fila o columna.
+
+* **justify-self & align-self** &rarr; Alineación horizontal y vertical, respectivamente (contenedor hijo). Los valores que toman por defecto es **stretch**, el cual hace que tomen todo el valor asignado en la fila o columna.
+
 * **fr (Nueva Unidad de medida)** &rarr; **fr** distrubuye el espacio disponible en formas iguales.
 
 * **Auto** es lo mismo que **fr** pero al mismo tiempo no lo es, porque auto distribuye el espaciado que tiene la columna pero con referencia a su contenido.
