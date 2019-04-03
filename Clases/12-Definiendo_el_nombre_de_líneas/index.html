@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Columns & Rows Size</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: [inicio] 1fr [linea2] 1fr [linea3] 1fr [linea4] 1fr [linea5] 1fr [linea6]1fr [linea7] 1fr [final]; 
+            grid-template-rows: [inicio] 200px [linea2] 200px [final];
+            grid-gap: 5px;
+            height: 100vh;
+        }
+        .item{
+            background-color: aquamarine;
+            padding: 10px;
+        }
+        .item:nth-of-type(1){
+            grid-column: inicio  / linea4;
+            grid-row: inicio / final;
+        }
+        .item:nth-of-type(2){
+            grid-column: linea4  / linea6;
+            grid-row: inicio / final;
+        }
+        .item:nth-of-type(3){
+            grid-column: linea6 / final;
+            grid-row: inicio / linea2;
+        }
+
+    </style>
+</head>
+<body>
+    <seccion class="container">
+        <div class="item">item #1</div>
+        <div class="item">item #2</div>
+        <div class="item">item #3</div>
+        <div class="item">item #4</div>
+        <div class="item">item #5</div>
+    </seccion>
+</body>
+</html>
