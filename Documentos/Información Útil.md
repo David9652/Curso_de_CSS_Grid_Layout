@@ -41,6 +41,11 @@
 
 * **justify-self & align-self** &rarr; Alineación horizontal y vertical, respectivamente (contenedor hijo). Los valores que toman por defecto es **stretch**, el cual hace que tomen todo el valor asignado en la fila o columna.
 
+* **justify-content & align-content** &rarr; Alineación Horizontal y Vertical de todo el contenedor.
+	* **space-around** &rarr; Los items tienen el mismo espacio a su alrededor.
+	* **space-evenly** &rarr; Hay un espacio más homogéneo entre items.
+	* **space-between** &rarr; El primer item al inicio, el último al final.
+
 * **fr (Nueva Unidad de medida)** &rarr; **fr** distrubuye el espacio disponible en formas iguales.
 
 * **Auto** es lo mismo que **fr** pero al mismo tiempo no lo es, porque auto distribuye el espaciado que tiene la columna pero con referencia a su contenido.

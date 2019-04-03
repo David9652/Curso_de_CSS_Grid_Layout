@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Align-Content</title>
+    <title>Align - Columns & Rows</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -14,19 +14,15 @@
             display: grid;
             grid-gap: 5px;
             height: 100vh;
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(4,1fr);
-            justify-items: center;
-            align-items: center;
-            /*justify-items: start end center stretch - align-items;*/
+            grid-template-columns: repeat(3,200px);
+            grid-template-rows: repeat(4,100px);
+            justify-content: center;
+            align-content: space-around;
+            /*justify-content: start end center stretch space-around space-between space-evenly - align-content;*/
         }
         .item{
             background-color: aquamarine;
             padding: 10px;
-        }
-        .item:nth-of-type(5){
-            align-self: start;
-            justify-self: start;
         }
     </style>
 </head>
