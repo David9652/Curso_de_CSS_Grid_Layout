@@ -78,3 +78,8 @@
 * [Imágenes 2](https://www.pexels.com/ "Imágenes 2").
 * [Imágenes 3](https://pikwizard.com/ "Imágenes 3").
 * [Flexbox Vs CSS Grids](https://platzi.com/blog/flexbox-vs-css-grid-cual-es-la-diferencia/ "Flexbox Vs CSS Grids").
+* [Extensión VSCode Data Fake](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker "Extensión VSCode Data Fake").
+* [Instagram Layout Ejemplo](https://jjonatansosa.github.io/instagram-layout/index.html# "Instagram Layout Ejemplo").
+* [Iconos Google](https://material.io/tools/icons/?style=baseline "Iconos Google").
+* [Uso Iconos Google](https://www.w3schools.com/icons/google_icons_intro.asp "Uso Iconos Google"). 
+* [Iconos Awesome](https://fontawesome.com/ "Iconos Awesome").
