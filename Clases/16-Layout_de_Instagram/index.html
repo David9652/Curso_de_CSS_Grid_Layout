@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Layout Instagram</title>
+    <link rel="stylesheet" href="../reset.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .post{
+            cursor: pointer;
+            display: block;
+            width: 200px;
+            position: relative;
+        }
+        .post-image{
+            border: 1px red solid;
+        }
+        .post-image img{
+            width: 100%;
+            vertical-align: top;
+        }
+        .post:hover .post-overlay{
+            display: flex;
+        }
+        .post-overlay{
+            background: rgba(0,0,0,0.4);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            display: none;
+            border: 1px blue solid;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .post-likes,
+        .post-comments{
+            width: 80px;
+            margin: 5px;
+            font-weight: bold;
+            display: inline-block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="post-list">
+        <a href="" class="post">
+            <figure class="post-image">
+                <img src="compu.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">100</span>
+                </p>
+            </div>
+        </a>
+    </section>
+</body>
+</html>
