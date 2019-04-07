@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Layout Pinterest</title>
+    <link rel="stylesheet" href="../reset.css">
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,250px);
+            grid-gap: 5px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .item{
+            border-radius: 5px;
+            padding: 10px;
+            background: #f2f2f2;
+        }
+        .item img{
+            max-width: 100%;
+/*          width: 100%;
+            height: 100%;
+            object-fit: cover;*/
+        }
+        .level-1{
+            grid-row-end: span 3;
+            border: red 1px solid;
+        }
+        .level-2{
+            grid-row-end: span 2;  
+            border: blue 1px solid; 
+        }
+        .level-3{
+            grid-row-end: span 1;
+            border:yellow 1px solid;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item level-1">
+        <img src="landing.jpg" alt="">
+    </div>
+    <div class="item level-2">
+        <img src="t-shirt.jpg" alt="">
+    </div>
+    <div class="item level-3">
+        <img src="house.jpg" alt="">
+    </div>
+    <div class="item level-1">
+        <img src="landing.jpg" alt="">
+    </div>
+    <div class="item level-2">
+        <img src="t-shirt.jpg" alt="">
+    </div>
+    <div class="item level-3">
+        <img src="house.jpg" alt="">
+    </div>
+    <div class="item level-1">
+        <img src="landing.jpg" alt="">
+    </div>
+    <div class="item level-2">
+        <img src="t-shirt.jpg" alt="">
+    </div>
+    <div class="item level-3">
+        <img src="house.jpg" alt="">
+    </div>
+    <div class="item level-1">
+        <img src="landing.jpg" alt="">
+    </div>
+    <div class="item level-2">
+        <img src="t-shirt.jpg" alt="">
+    </div>
+    <div class="item level-3">
+        <img src="house.jpg" alt="">
+    </div>
+</div>
+</body>
+</html>

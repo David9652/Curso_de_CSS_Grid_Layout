@@ -83,3 +83,6 @@
 * [Iconos Google](https://material.io/tools/icons/?style=baseline "Iconos Google").
 * [Uso Iconos Google](https://www.w3schools.com/icons/google_icons_intro.asp "Uso Iconos Google"). 
 * [Iconos Awesome](https://fontawesome.com/ "Iconos Awesome").
+* [Grid-auto-flow - Layout Masonry (Pinterest)](https://scrimba.com/p/pWqLHa/cBq3PsP "Grid-auto-flow - Layout Masonry (Pinterest)").
+* [AutoFill Vs AutoFit CSS Grid](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/ "AutoFill Vs AutoFit CSS Grid").
+* [Portafolio Front-end](http://leandrovidela.com/ "Portafolio Front-end").
