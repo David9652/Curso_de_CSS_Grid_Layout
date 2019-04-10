@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+        body{
+            font-family: 'Lato', sans-serif;
+        }
+        .header{
+            background: #fbfeff;
+            border: solid 1px red;
+        }
+        .container-header{
+            display: grid;
+            grid-template-columns: 20% 1fr 30%;
+            grid-template-areas: "logo searchbar user-info";
+            box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+        }
+        .logo{
+            grid-area: logo;
+        }
+        .logo img{
+            max-width: 80px;
+        }
+        .searchbar{
+            position: relative;
+            grid-area: searchbar;
+            margin: 20px 30px;
+        }
+        .searchbar input{
+            width: 80%;
+            font-size: 20px;
+            padding: 10px 35px;
+        }
+        .fa-search{
+            font-size: 20px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 10px 5px;
+        }
+        .user-info{
+            border: solid 1px blue;
+            grid-area: user-info;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .user-info span{
+            font-weight: 700;
+            font-size: 24px;
+        }
+        .user-info .profile-picture img{
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            margin: 0 20px;
+        }
+        .fa-sort-down {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header class="container-header">
+            <figure class="logo">
+                <img src="img/videogame_icons.png" alt="logo">
+            </figure>
+            <div class="searchbar">
+                <input type="text" placeholder="Busca tu videojuego favorito" value="">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="user-info">
+                <span>David Ángel</span>
+                <figure class="profile-picture">
+                    <img src="img/avatar.jpg" alt="profile-picture">
+                </figure>
+                <i class="fas fa-sort-down"></i>
+            </div>
+        </header>
+    </div>
+    <nav class="container-nav">
+        <div class="home-logo">
+            <span>Home</span>
+            <i class="fas fa-home"></i>
+        </div>   
+        <div class="trending-logo">
+            <span>Trending</span>
+            <i class="fas fa-bolt"></i>
+        </div>
+        <div class="likes-logo">
+            <span>Likes</span>
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="settings-logo">
+            <span>Settings</span>
+            <i class="fas fa-cog"></i>
+        </div>
+    </nav>
+    <section class="container-movies">
+        <div class="advertisemnt">
+            <p>Ahora en el cine</p>
+        </div>
+        <div class="movies">
+            <figure>
+                <img src="img/gears.png" alt="">
+            </figure>
+            <figcaption>test</figcaption>
+
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                    <figure> 
+                        <img src="" alt="">
+                    </figure>
+
+        </div>
+
+        
+    </section>
+</body>
+</html>
